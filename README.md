@@ -6,8 +6,11 @@ A mini project that lets you control home light using low voltage DC [SRD-5VDC-S
 - SRD-5VDC-SL-C (or any other relay)
 
 **Wiring Diagram:**
+There are two diagrams to choose from, the first one is a "one way switch" which can only be controlled by the microcontroller. The second one is three way switch which allows you to control the light from a regular light switch and the microcontroller. Both diagrams work with the .ino code except when using 3-way diagram the print line that prints whether the light is ON or OFF won't be useful since you can't determine light state.
+
 > One-way light switch that can be controlled only by the microcontroller.
 ![One-way Wiring Diagram](https://github.com/Ish-Co/Light-Switch-Relay-SRD-5VDC-SL-C-/blob/main/img/1-Way%20Relay%20Wiring%20Diagram.png)
+
 > Three-way ligjt switch that can be controlled using the microcontroller and a three way light switch
 ![Three-way Wiring Diagram](https://github.com/Ish-Co/Light-Switch-Relay-SRD-5VDC-SL-C-/blob/main/img/3-Way%20Relay%20Wiring%20Diagram.png)
 
